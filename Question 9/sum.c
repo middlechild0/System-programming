@@ -7,7 +7,7 @@ int main() {
     printf("Enter a positive integer: ");
     scanf("%d", &num);
 
-   // Validate the input
+    // Validate the input
     if (num < 0) {
         printf("Invalid input. Please enter a positive integer.\n");
         return 1; // Exit the program with an error code
@@ -19,7 +19,7 @@ int main() {
         num /= 10;       // Remove the last digit from the number
     }
 
-      // Print the result
+    // Print the result
     printf("The sum of the digits is: %d\n", sum);
     return 0;
 }
